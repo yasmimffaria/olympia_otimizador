@@ -92,7 +92,7 @@ root.resizable(False, False)
 main = ttk.Frame(root, padding=12)
 main.pack()
 
-
+### Criando os label e os inputs
 ttk.LabelFrame(main, text="Dimensões do Galpão").grid(row=0, column=0, sticky="ew", pady=(0,8))
 frame_galpao = ttk.LabelFrame(main, text="Dimensões do Galpão")
 frame_galpao.grid(row=0, column=0, sticky="ew", pady=(0, 8))
