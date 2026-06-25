@@ -43,20 +43,23 @@ def adicionar_maquina():
     comp = entry_comp.get().strip()
     larg = entry_larg.get().strip()
     setor = entry_setor.get().strip()
+    qtd = entry_qtd.get().strip()
 
     try:
         comp = float(comp)
         larg = float(larg)
         setor = int(setor)
+        qtd = int(qtd)
+
     except ValueError:
-        messagebox.showerror("Erro", "Comprimento, largura e setor devem ser números.")
+        messagebox.showerror("Erro", "Comprimento, largura, quantidade e setor devem ser números.")
         return
 
     if not nome:
         messagebox.showerror("Erro", "Informe o nome da máquina.")
         return
 
-    maquinas.append({"nome": nome, "w": comp, "h": larg, "setor": setor})
+    maquinas.append({"nome": nome, "w": comp, "h": larg, "setor": setor, "qtd": qtd})
 
     #adiciona linha na tabela
     tree.insert("", "end", values=(nome, comp, larg, setor))
@@ -66,6 +69,7 @@ def adicionar_maquina():
     entry_comp.delete(0, tk.END)
     entry_larg.delete(0, tk.END)
     entry_setor.delete(0, tk.END)
+    entry_qtd.delete(0, tk.END)
 
 def otimizar():
     try:
@@ -87,7 +91,9 @@ def otimizar():
 
 root = tk.Tk()
 root.title("Academia — Otimizador de Layout")
-root.resizable(False, False)
+root.geometry("1000x650")
+root.resizable(True, True)
+
 
 main = ttk.Frame(root, padding=12)
 main.pack()
@@ -114,26 +120,30 @@ entry_folga.insert(0, "1.0")
 entry_folga.grid(row=0, column=1, padx=4, pady=3)
 
 frame_add = ttk.LabelFrame(main, text="Adicionar Máquina")
-frame_add.grid(row=2, column=0, sticky="ew", pady=(0, 8))
-ttk.Button(frame_add, text="Importar csv", command=importar_csv).grid(row=2, column=0, columnspan=9, pady=4)
+frame_add.grid(row=2, column=0, sticky="ew", pady=(0,8))
+ttk.Button(frame_add, text=" 📥 Importar csv", command=importar_csv).grid(row=0, column=0, columnspan=12, padx=0, pady=4)
 
-ttk.Label(frame_add, text="Nome:").grid(row=0, column=0, sticky="w", padx=4)
+ttk.Label(frame_add, text="Nome:").grid(row=1, column=0, sticky="w", padx=10, pady=10)
 entry_nome = ttk.Entry(frame_add, width=14)
-entry_nome.grid(row=0, column=1, padx=4, pady=2)
+entry_nome.grid(row=1, column=1, padx=0, pady=10)
 
-ttk.Label(frame_add, text="Comp (m):").grid(row=0, column=2, sticky="w", padx=4)
+ttk.Label(frame_add, text="Comp (m):").grid(row=1, column=2, sticky="w", padx=4)
 entry_comp = ttk.Entry(frame_add, width=7)
-entry_comp.grid(row=0, column=3, padx=4, pady=2)
+entry_comp.grid(row=1, column=3, padx=4, pady=2)
 
-ttk.Label(frame_add, text="Larg (m):").grid(row=0, column=4, sticky="w", padx=4)
+ttk.Label(frame_add, text="Larg (m):").grid(row=1, column=4, sticky="w", padx=4)
 entry_larg = ttk.Entry(frame_add, width=7)
-entry_larg.grid(row=0, column=5, padx=4, pady=2)
+entry_larg.grid(row=1, column=5, padx=4, pady=2)
 
-ttk.Label(frame_add, text="Setor:").grid(row=0, column=6, sticky="w", padx=4)
+ttk.Label(frame_add, text="Setor:").grid(row=1, column=6, sticky="w", padx=4)
 entry_setor = ttk.Entry(frame_add, width=5)
-entry_setor.grid(row=0, column=7, padx=4, pady=2)
+entry_setor.grid(row=1, column=7, padx=4, pady=2)
 
-ttk.Button(frame_add, text="+ Adicionar", command=adicionar_maquina).grid(row=0, column=8, padx=8)
+ttk.Label(frame_add, text="qtd:").grid(row=1, column=8, sticky="w", padx=4)
+entry_qtd = ttk.Entry(frame_add, width=2)
+entry_qtd.grid(row=1, column=9, padx=4, pady=2)
+
+ttk.Button(frame_add, text="+ Adicionar", command=adicionar_maquina).grid(row=1, column=11, padx=8)
 
 frame_tabela = ttk.LabelFrame(main, text="Máquinas Cadastradas")
 frame_tabela.grid(row=3, column=0, sticky="ew", pady=(0, 8))
