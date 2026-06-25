@@ -62,7 +62,7 @@ def adicionar_maquina():
     maquinas.append({"nome": nome, "w": comp, "h": larg, "setor": setor, "qtd": qtd})
 
     #adiciona linha na tabela
-    tree.insert("", "end", values=(nome, comp, larg, setor))
+    tree.insert("", "end", values=(nome, comp, larg, setor, qtd))
 
     #limpa os campos
     entry_nome.delete(0, tk.END)
@@ -147,7 +147,7 @@ ttk.Button(frame_add, text="+ Adicionar", command=adicionar_maquina).grid(row=1,
 frame_tabela = ttk.LabelFrame(main, text="Máquinas Cadastradas")
 frame_tabela.grid(row=3, column=0, sticky="ew", pady=(0, 8))
 
-cols = ("Nome", "Comp (m)", "Larg (m)", "Setor")
+cols = ("Nome", "Comp (m)", "Larg (m)", "Setor", "Qtd")
 tree = ttk.Treeview(frame_tabela, columns=cols, show="headings", height=6)
 for c in cols:
     tree.heading(c, text=c)
