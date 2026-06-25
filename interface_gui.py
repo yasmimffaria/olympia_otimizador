@@ -91,8 +91,7 @@ def otimizar():
 
 root = tk.Tk()
 root.title("Academia — Otimizador de Layout")
-root.geometry("1000x650")
-root.resizable(True, True)
+root.resizable(False, False)
 
 
 main = ttk.Frame(root, padding=12)
