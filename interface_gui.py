@@ -7,6 +7,8 @@ from tkinter import ttk, messagebox
 from tkinter import filedialog
 import csv
 
+from modelo import resolver_modelo
+
 def importar_csv():
     caminho = filedialog.askopenfilename(
         title="Selecionar arquivo de máquinas",
@@ -84,10 +86,9 @@ def otimizar():
         messagebox.showerror("Erro", "Adicione ao menos uma máquina.")
         return
 
-    #aqui vai a chamada pro modelo.py
-    print("Rodando otimização...")
-    print(f"Galpão: {W}x{H}, Folga: {folga}")
-    print("Máquinas:", maquinas)
+    resultado = resolver_modelo(W, H, folga, maquinas)
+
+
 
 root = tk.Tk()
 root.title("Academia — Otimizador de Layout")
