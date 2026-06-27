@@ -26,11 +26,12 @@ def importar_csv():
                     "nome":  linha["nome"],
                     "w":     float(linha["comp"]),
                     "h":     float(linha["larg"]),
-                    "setor": int(linha["setor"])
+                    "setor": int(linha["setor"]),
+                    "qtd":    int(linha["qtd"])
                 }
                 maquinas.append(maq)
                 tree.insert("", "end", values=(
-                    maq["nome"], maq["w"], maq["h"], maq["setor"]
+                    maq["nome"], maq["w"], maq["h"], maq["setor"], maq["qtd"]
                 ))
 
         messagebox.showinfo("Sucesso", f"{len(maquinas)} máquinas carregadas!")
