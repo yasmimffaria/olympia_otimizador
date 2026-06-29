@@ -27,11 +27,11 @@ def importar_csv():
                     "w":     float(linha["comp"]),
                     "h":     float(linha["larg"]),
                     "setor": int(linha["setor"]),
-                    "qtd":    int(linha["qtd"])
+                   
                 }
                 maquinas.append(maq)
                 tree.insert("", "end", values=(
-                    maq["nome"], maq["w"], maq["h"], maq["setor"], maq["qtd"]
+                    maq["nome"], maq["w"], maq["h"], maq["setor"]
                 ))
 
         messagebox.showinfo("Sucesso", f"{len(maquinas)} máquinas carregadas!")
@@ -87,9 +87,10 @@ def otimizar():
         messagebox.showerror("Erro", "Adicione ao menos uma máquina.")
         return
 
-    resultado = resolver_modelo(W, H, folga, maquinas)
-
-
+    #aqui vai a chamada pro modelo.py
+    print("Rodando otimização...")
+    print(f"Galpão: {W}x{H}, Folga: {folga}")
+    print("Máquinas:", maquinas)
 
 root = tk.Tk()
 root.title("Academia — Otimizador de Layout")

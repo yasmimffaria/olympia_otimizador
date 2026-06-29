@@ -64,7 +64,7 @@ def resolver_modelo(W, H, folga, maquinas):
     # pos de cada maquina
     x_maq = LpVariable.dicts("x", range(qtd_maquinas), lowBound=0, upBound=W, cat="Continuous")
     y_maq = LpVariable.dicts("y", range(qtd_maquinas), lowBound=0, upBound=H, cat="Continuous")
-    
+
     # pos de cada setor
     X_set = LpVariable.dicts("X", range(qtd_setores), lowBound=0, upBound=W, cat="Continuous")
     Y_set = LpVariable.dicts("Y", range(qtd_setores), lowBound=0, upBound=H, cat="Continuous")
@@ -163,7 +163,7 @@ def resolver_modelo(W, H, folga, maquinas):
         "A_set": {i: A_set[i].varValue for i in range(qtd_setores)},
         "L_set": {i: L_set[i].varValue for i in range(qtd_setores)}
     }
-    
+
     # ============================================================
     # mostra os resultados no terminal
 
