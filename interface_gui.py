@@ -24,7 +24,7 @@ def importar_csv():
 
     if not caminho:
         return
-#aqui
+
     try:
         # conta so o que foi carregado deste arquivo (nao a lista global)
         linhas_carregadas = 0   # numero de tipos (linhas do CSV)
