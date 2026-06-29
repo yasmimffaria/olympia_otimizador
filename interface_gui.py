@@ -26,7 +26,8 @@ def importar_csv():
                     "nome":  linha["nome"],
                     "w":     float(linha["comp"]),
                     "h":     float(linha["larg"]),
-                    "setor": int(linha["setor"])
+                    "setor": int(linha["setor"]),
+                   
                 }
                 maquinas.append(maq)
                 tree.insert("", "end", values=(
