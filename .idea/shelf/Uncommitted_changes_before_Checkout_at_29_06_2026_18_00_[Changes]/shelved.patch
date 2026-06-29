@@ -1,0 +1,173 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"f80f358e-334b-4e3c-8183-e04f4948b761\" name=\"Changes\" comment=\"nada demais\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\">\n    <execution />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"dev/yasmim\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;yasmimffaria&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/yasmimffaria/olympia_otimizador.git&quot;,\n    &quot;accountId&quot;: &quot;a04f00b4-e434-4b75-a191-914c03a4ad0a&quot;\n  }\n}</component>\n  <component name=\"McpProjectServerCommands\">\n    <commands />\n    <urls />\n  </component>\n  <component name=\"NextEditCompletionFeaturesState\">\n    <decayedCancelled>\n      <entry key=\"MS100\" value=\"1.0\" />\n      <entry key=\"MS500\" value=\"1.0\" />\n      <entry key=\"S2\" value=\"1.0000000000002316\" />\n      <entry key=\"S5\" value=\"1.000042573305644\" />\n      <entry key=\"S10\" value=\"1.028033662823015\" />\n      <entry key=\"S30\" value=\"3.8771548700664926\" />\n      <entry key=\"S60\" value=\"11.862471082144637\" />\n      <entry key=\"M2\" value=\"23.31775072706782\" />\n      <entry key=\"M5\" value=\"36.4859376787965\" />\n      <entry key=\"M10\" value=\"46.430984822949846\" />\n      <entry key=\"M15\" value=\"55.269165193161605\" />\n      <entry key=\"M30\" value=\"76.48655437501819\" />\n      <entry key=\"H1\" value=\"100.98847947091349\" />\n      <entry key=\"H2\" value=\"135.94656788377233\" />\n      <entry key=\"H4\" value=\"205.6222229792857\" />\n      <entry key=\"D1\" value=\"403.64939619258877\" />\n      <entry key=\"W1\" value=\"468.7476548992202\" />\n    </decayedCancelled>\n    <decayedSelected>\n      <entry key=\"MS100\" value=\"0.0\" />\n      <entry key=\"MS500\" value=\"0.0\" />\n      <entry key=\"S2\" value=\"0.0\" />\n      <entry key=\"S5\" value=\"1.9279459919301845E-155\" />\n      <entry key=\"S10\" value=\"4.516384987274807E-78\" />\n      <entry key=\"S30\" value=\"2.609133793759612E-26\" />\n      <entry key=\"S60\" value=\"3.153995034476563E-13\" />\n      <entry key=\"M2\" value=\"1.2460764869621312E-6\" />\n      <entry key=\"M5\" value=\"0.012564944838951158\" />\n      <entry key=\"M10\" value=\"0.3049244756444326\" />\n      <entry key=\"M15\" value=\"0.9381400528086479\" />\n      <entry key=\"M30\" value=\"3.071945360056518\" />\n      <entry key=\"H1\" value=\"5.753654556165461\" />\n      <entry key=\"H2\" value=\"8.238632633515314\" />\n      <entry key=\"H4\" value=\"10.819404461044636\" />\n      <entry key=\"D1\" value=\"16.110310602639178\" />\n      <entry key=\"W1\" value=\"17.703639713996644\" />\n    </decayedSelected>\n    <decayedShown>\n      <entry key=\"MS100\" value=\"0.01617601443502152\" />\n      <entry key=\"MS500\" value=\"0.4383028606580175\" />\n      <entry key=\"S2\" value=\"0.8136611427357666\" />\n      <entry key=\"S5\" value=\"0.9208681834918118\" />\n      <entry key=\"S10\" value=\"0.9876006387360117\" />\n      <entry key=\"S30\" value=\"3.8624814841623403\" />\n      <entry key=\"S60\" value=\"11.85364507196358\" />\n      <entry key=\"M2\" value=\"23.312243319904233\" />\n      <entry key=\"M5\" value=\"36.49567216716576\" />\n      <entry key=\"M10\" value=\"46.733052218838694\" />\n      <entry key=\"M15\" value=\"56.20351527554499\" />\n      <entry key=\"M30\" value=\"79.55350383413302\" />\n      <entry key=\"H1\" value=\"106.73757404256429\" />\n      <entry key=\"H2\" value=\"144.1817954507417\" />\n      <entry key=\"H4\" value=\"216.43922707104656\" />\n      <entry key=\"D1\" value=\"419.7590461308015\" />\n      <entry key=\"W1\" value=\"486.45118876900796\" />\n    </decayedShown>\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 8,\n  &quot;fromUser&quot;: false\n}</component>\n  <component name=\"ProjectId\" id=\"3FasxszqDyyzTqSTGHbclLyT4fa\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\n    \"RunOnceActivity.MCP Project settings loaded\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"RunOnceActivity.typescript.service.memoryLimit.init\": \"true\",\n    \"codeWithMe.voiceChat.enabledByDefault\": \"false\",\n    \"git-widget-placeholder\": \"master\",\n    \"git.auto.fetch.suggestion.counter\": \"3\",\n    \"last_opened_file_path\": \"/home/yasmim/Documentos/Computação/olympia_otimizador\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-python-sdk-245168a56dbd-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.25134.203\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"f80f358e-334b-4e3c-8183-e04f4948b761\" name=\"Changes\" comment=\"\" />\n      <created>1782324766189</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1782324766189</updated>\n      <workItem from=\"1782324766198\" duration=\"265000\" />\n      <workItem from=\"1782325067933\" duration=\"39000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"adicionando os init e interface\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1782383692499</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1782383692499</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"adicionando comentarios\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1782383845388</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1782383845388</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"adicionando o campo qtd\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1782413305909</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1782413305909</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"tirei o tamanho fixo\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1782413459324</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1782413459325</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"adicionando a quantidade na tabela\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1782414518841</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1782414518842</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"testando o back e front\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1782508789943</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1782508789943</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"nada demais\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1782763295346</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1782763295347</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"nada demais\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1782764076934</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1782764076934</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"nada demais\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1782765221351</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1782765221351</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"nada demais\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1782765224223</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1782765224223</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"nada demais\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1782765226549</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1782765226549</updated>\n    </task>\n    <task id=\"LOCAL-00012\" summary=\"nada demais\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1782766535480</created>\n      <option name=\"number\" value=\"00012\" />\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1782766535480</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"13\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"adicionando os init e interface\" />\n    <MESSAGE value=\"adicionando comentarios\" />\n    <MESSAGE value=\"adicionando o campo qtd\" />\n    <MESSAGE value=\"tirei o tamanho fixo\" />\n    <MESSAGE value=\"adicionando a quantidade na tabela\" />\n    <MESSAGE value=\"testando o back e front\" />\n    <MESSAGE value=\"nada demais\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"nada demais\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1d25a730461b9fdaf177bb8ebe39876cd6bf8b97)
++++ b/.idea/workspace.xml	(date 1782766767321)
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="f80f358e-334b-4e3c-8183-e04f4948b761" name="Changes" comment="nada demais" />
++    <list default="true" id="f80f358e-334b-4e3c-8183-e04f4948b761" name="Changes" comment="atualizando branch" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -46,61 +46,61 @@
+   </component>
+   <component name="NextEditCompletionFeaturesState">
+     <decayedCancelled>
+-      <entry key="MS100" value="1.0" />
+-      <entry key="MS500" value="1.0" />
+-      <entry key="S2" value="1.0000000000002316" />
+-      <entry key="S5" value="1.000042573305644" />
+-      <entry key="S10" value="1.028033662823015" />
+-      <entry key="S30" value="3.8771548700664926" />
+-      <entry key="S60" value="11.862471082144637" />
+-      <entry key="M2" value="23.31775072706782" />
+-      <entry key="M5" value="36.4859376787965" />
+-      <entry key="M10" value="46.430984822949846" />
+-      <entry key="M15" value="55.269165193161605" />
+-      <entry key="M30" value="76.48655437501819" />
+-      <entry key="H1" value="100.98847947091349" />
+-      <entry key="H2" value="135.94656788377233" />
+-      <entry key="H4" value="205.6222229792857" />
+-      <entry key="D1" value="403.64939619258877" />
+-      <entry key="W1" value="468.7476548992202" />
++      <entry key="MS100" value="1.004979619058983" />
++      <entry key="MS500" value="1.4238194834516293" />
++      <entry key="S2" value="2.6216879986799344" />
++      <entry key="S5" value="3.3180870102902973" />
++      <entry key="S10" value="3.631892125107201" />
++      <entry key="S30" value="3.8706496311385155" />
++      <entry key="S60" value="3.9344523082222076" />
++      <entry key="M2" value="3.9702318616765" />
++      <entry key="M5" value="5.030471080455476" />
++      <entry key="M10" value="11.846403701089148" />
++      <entry key="M15" value="20.89879541972206" />
++      <entry key="M30" value="46.29661832636985" />
++      <entry key="H1" value="79.09950426554899" />
++      <entry key="H2" value="121.23357705933154" />
++      <entry key="H4" value="194.94677604558626" />
++      <entry key="D1" value="402.69862863802757" />
++      <entry key="W1" value="471.92199165456975" />
+     </decayedCancelled>
+     <decayedSelected>
+       <entry key="MS100" value="0.0" />
+       <entry key="MS500" value="0.0" />
+       <entry key="S2" value="0.0" />
+-      <entry key="S5" value="1.9279459919301845E-155" />
+-      <entry key="S10" value="4.516384987274807E-78" />
+-      <entry key="S30" value="2.609133793759612E-26" />
+-      <entry key="S60" value="3.153995034476563E-13" />
+-      <entry key="M2" value="1.2460764869621312E-6" />
+-      <entry key="M5" value="0.012564944838951158" />
+-      <entry key="M10" value="0.3049244756444326" />
+-      <entry key="M15" value="0.9381400528086479" />
+-      <entry key="M30" value="3.071945360056518" />
+-      <entry key="H1" value="5.753654556165461" />
+-      <entry key="H2" value="8.238632633515314" />
+-      <entry key="H4" value="10.819404461044636" />
+-      <entry key="D1" value="16.110310602639178" />
+-      <entry key="W1" value="17.703639713996644" />
++      <entry key="S5" value="4.7062483763424E-248" />
++      <entry key="S10" value="2.2314180671051377E-124" />
++      <entry key="S30" value="9.573990962471687E-42" />
++      <entry key="S60" value="6.04170250823065E-21" />
++      <entry key="M2" value="1.724621781981962E-10" />
++      <entry key="M5" value="3.594349076389605E-4" />
++      <entry key="M10" value="0.05157296720013168" />
++      <entry key="M15" value="0.28691564718520735" />
++      <entry key="M30" value="1.6988567670994574" />
++      <entry key="H1" value="4.27873532453457" />
++      <entry key="H2" value="7.1046216874402885" />
++      <entry key="H4" value="10.047228191369543" />
++      <entry key="D1" value="15.912719176779184" />
++      <entry key="W1" value="17.672456351755716" />
+     </decayedSelected>
+     <decayedShown>
+-      <entry key="MS100" value="0.01617601443502152" />
+-      <entry key="MS500" value="0.4383028606580175" />
+-      <entry key="S2" value="0.8136611427357666" />
+-      <entry key="S5" value="0.9208681834918118" />
+-      <entry key="S10" value="0.9876006387360117" />
+-      <entry key="S30" value="3.8624814841623403" />
+-      <entry key="S60" value="11.85364507196358" />
+-      <entry key="M2" value="23.312243319904233" />
+-      <entry key="M5" value="36.49567216716576" />
+-      <entry key="M10" value="46.733052218838694" />
+-      <entry key="M15" value="56.20351527554499" />
+-      <entry key="M30" value="79.55350383413302" />
+-      <entry key="H1" value="106.73757404256429" />
+-      <entry key="H2" value="144.1817954507417" />
+-      <entry key="H4" value="216.43922707104656" />
+-      <entry key="D1" value="419.7590461308015" />
+-      <entry key="W1" value="486.45118876900796" />
++      <entry key="MS100" value="0.957381655764356" />
++      <entry key="MS500" value="1.4082459625033807" />
++      <entry key="S2" value="2.6115651803802966" />
++      <entry key="S5" value="3.3125675579912315" />
++      <entry key="S10" value="3.628805765379694" />
++      <entry key="S30" value="3.8695386699385357" />
++      <entry key="S60" value="3.9338858956180687" />
++      <entry key="M2" value="3.969945108289154" />
++      <entry key="M5" value="5.030634475257731" />
++      <entry key="M10" value="11.897435791282359" />
++      <entry key="M15" value="21.184513505216167" />
++      <entry key="M30" value="47.99269300332859" />
++      <entry key="H1" value="83.37483890984133" />
++      <entry key="H2" value="128.33525755967761" />
++      <entry key="H4" value="204.99177277443735" />
++      <entry key="D1" value="418.6106948522452" />
++      <entry key="W1" value="489.594342291248" />
+     </decayedShown>
+   </component>
+   <component name="ProjectColorInfo">{
+@@ -121,7 +121,7 @@
+     "RunOnceActivity.git.unshallow": "true",
+     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+     "codeWithMe.voiceChat.enabledByDefault": "false",
+-    "git-widget-placeholder": "master",
++    "git-widget-placeholder": "dev/joao",
+     "git.auto.fetch.suggestion.counter": "3",
+     "last_opened_file_path": "/home/yasmim/Documentos/Computação/olympia_otimizador",
+     "node.js.detected.package.eslint": "true",
+@@ -245,7 +245,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1782766535480</updated>
+     </task>
+-    <option name="localTasksCounter" value="13" />
++    <task id="LOCAL-00013" summary="nada demais">
++      <option name="closed" value="true" />
++      <created>1782766676309</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1782766676309</updated>
++    </task>
++    <task id="LOCAL-00014" summary="atualizando branch">
++      <option name="closed" value="true" />
++      <created>1782766757119</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1782766757119</updated>
++    </task>
++    <option name="localTasksCounter" value="15" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -270,6 +286,7 @@
+     <MESSAGE value="adicionando a quantidade na tabela" />
+     <MESSAGE value="testando o back e front" />
+     <MESSAGE value="nada demais" />
+-    <option name="LAST_COMMIT_MESSAGE" value="nada demais" />
++    <MESSAGE value="atualizando branch" />
++    <option name="LAST_COMMIT_MESSAGE" value="atualizando branch" />
+   </component>
+ </project>
+\ No newline at end of file
